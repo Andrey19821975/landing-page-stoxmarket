@@ -327,6 +327,9 @@ section.form-registration {
   background-size: cover;
   padding-top: 48px;
   padding-bottom: 45px; }
+  section.form-registration.two {
+    background: url("../img/bg-form-two.jpg") center center no-repeat;
+    background-size: cover; }
   section.form-registration h1 {
     margin: 0 0 36px 0;
     padding: 0;
@@ -369,3 +372,101 @@ section.form-registration {
     section.form-registration .wrapper-main button.mybtn {
       display: block;
       margin: 47px auto 0; }
+
+section.access {
+  background: url("../img/bg-bottom.jpg") center center no-repeat;
+  background-size: cover;
+  padding-top: 85px;
+  padding-bottom: 74px;
+  text-align: center; }
+  section.access h1 {
+    padding: 0;
+    margin: 0 0 70px;
+    font-family: GothamPro; }
+    section.access h1 span.gain {
+      color: #7b0619;
+      font-size: 55px;
+      font-weight: 500; }
+    section.access h1 span.array {
+      color: #032141;
+      font-size: 48px;
+      font-weight: 400; }
+    section.access h1 span.trading {
+      color: #032141;
+      font-size: 55px;
+      font-weight: 500; }
+  section.access .wrapper-main {
+    font-family: "GothamProMedium", sans-serif;
+    margin-bottom: 60px; }
+    section.access .wrapper-main .wrapper-img {
+      margin: 0 auto;
+      max-width: 210px;
+      height: 210px;
+      background: url("../img/icon31.png") center center no-repeat;
+      background-size: contain; }
+      section.access .wrapper-main .wrapper-img.pic2 {
+        background: url("../img/icon32.png") center center no-repeat;
+        background-size: contain; }
+      section.access .wrapper-main .wrapper-img.pic3 {
+        background: url("../img/icon33.png") center center no-repeat;
+        background-size: contain; }
+      section.access .wrapper-main .wrapper-img.pic4 {
+        background: url("../img/icon34.png") center center no-repeat;
+        background-size: contain; }
+      section.access .wrapper-main .wrapper-img.pic5 {
+        background: url("../img/icon35.png") center center no-repeat;
+        background-size: contain; }
+    section.access .wrapper-main .wrapper-caption {
+      margin: 40px 0 37px;
+      color: #68a625;
+      font-size: 21px;
+      font-weight: 500;
+      text-transform: uppercase; }
+    section.access .wrapper-main .wrapper-text {
+      color: #032141;
+      font-size: 18px;
+      font-weight: 400; }
+      section.access .wrapper-main .wrapper-text span {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 10px; }
+  section.access .button-down {
+    width: 44px;
+    height: 44px;
+    background: url("../img/buttondown.png") center center no-repeat;
+    margin: 145px auto 0; }
+
+.payments {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 53px;
+  font-family: "GothamProRegular", sans-serif; }
+  .payments h1 {
+    padding: 0;
+    margin: 0;
+    color: #032141;
+    font-size: 34px;
+    font-weight: 400; }
+  .payments img {
+    max-width: 100%;
+    height: auto;
+    margin: 55px auto 90px; }
+    .payments img.bot {
+      margin: 55px auto 0; }
+
+footer {
+  background-color: #282828;
+  padding-top: 30px;
+  padding-bottom: 15px; }
+  footer p {
+    color: #a3a3a3;
+    font-family: "GautamiRegular",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 5px 0;
+    margin: 0 0 13px; }
+  footer div {
+    height: 1px;
+    background-color: #c8c8c8;
+    margin-bottom: 20px; }

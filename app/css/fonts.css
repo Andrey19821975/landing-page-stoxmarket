@@ -27,3 +27,9 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GautamiRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GautamiRegular/GautamiRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GautamiRegular/GautamiRegular.woff") format("woff"), url("../fonts/GautamiRegular/GautamiRegular.ttf") format("truetype"); }
