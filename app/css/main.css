@@ -33,6 +33,7 @@ i {
 header {
   min-height: 695px;
   background: url("../img/bg-header.jpg") center center;
+  background-repeat: no-repeat;
   background-size: cover; }
   header .wrapper-header-left {
     margin-top: 47px; }
@@ -231,3 +232,92 @@ section.start {
     section.start .icon3 + h2:after {
       content: " s";
       color: white; }
+
+section.why-us {
+  background: url("../img/bg-middle.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 235px;
+  padding-bottom: 145px; }
+  section.why-us .mypb {
+    margin-bottom: 75px; }
+  section.why-us h1 {
+    text-align: center;
+    color: white;
+    font-family: "GothamProMedium", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 0 0 45px;
+    padding: 0; }
+  section.why-us h4 {
+    text-align: center;
+    color: white;
+    font-family: "GothamProMedium", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 82px; }
+  section.why-us .wrapper-img {
+    max-width: 175px;
+    height: 165px;
+    background: url("../img/icon21.png") center center no-repeat;
+    background-size: contain; }
+    section.why-us .wrapper-img.img2 {
+      background: url("../img/icon22.png") center center no-repeat;
+      background-size: contain; }
+    section.why-us .wrapper-img.img3 {
+      background: url("../img/icon23.png") center center no-repeat;
+      background-size: contain; }
+    section.why-us .wrapper-img.img4 {
+      background: url("../img/icon24.png") center center no-repeat;
+      background-size: contain; }
+
+.wrapper-content-middle {
+  text-align: right;
+  font-family: "GothamProRegular", sans-serif;
+  color: white;
+  font-weight: 400; }
+  .wrapper-content-middle.left {
+    text-align: left; }
+  .wrapper-content-middle .caption-content-middle {
+    margin-bottom: 40px;
+    font-size: 36px;
+    text-transform: uppercase; }
+  .wrapper-content-middle .text-content-middle {
+    font-size: 18px; }
+
+section.whether {
+  background: url("../img/bg-middle-bottom.jpg") center center no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 30px; }
+  section.whether h1 {
+    text-align: center;
+    color: #68a625;
+    font-family: "GothamProMedium", sans-serif;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 60px;
+    margin: 0 0 75px; }
+  section.whether ul {
+    margin-bottom: 52px;
+    list-style-type: none; }
+    section.whether ul li {
+      background: url("../img/buttonlist.png") left 1px no-repeat;
+      font-family: "GothamProRegular", sans-serif;
+      background-size: 60px 60px;
+      margin-top: 40px;
+      padding-bottom: 20px;
+      color: #000f32;
+      font-size: 30px;
+      font-weight: 400;
+      padding-left: 70px; }
+  section.whether .button-down {
+    width: 44px;
+    height: 44px;
+    background: url("../img/buttondown.png") center center no-repeat;
+    margin: 0 auto; }
+  section.whether a {
+    width: 100%;
+    height: 100%;
+    display: block; }
