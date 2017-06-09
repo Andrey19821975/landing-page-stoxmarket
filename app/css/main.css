@@ -237,7 +237,7 @@ section.why-us {
   background: url("../img/bg-middle.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 235px;
+  padding-top: 350px;
   padding-bottom: 145px; }
   section.why-us .mypb {
     margin-bottom: 75px; }
@@ -321,3 +321,51 @@ section.whether {
     width: 100%;
     height: 100%;
     display: block; }
+
+section.form-registration {
+  background: url("../img/bg-form-one.jpg") center center no-repeat;
+  background-size: cover;
+  padding-top: 48px;
+  padding-bottom: 45px; }
+  section.form-registration h1 {
+    margin: 0 0 36px 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: 1px 1.7px 2px rgba(0, 4, 2, 0.75);
+    color: #ffba00;
+    font-family: "GothamProBold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase; }
+  section.form-registration .wrapper-main {
+    border: 1px solid #ffba00;
+    border-radius: 10px;
+    margin: 0 150px;
+    padding: 37px 40px 45px; }
+    section.form-registration .wrapper-main .wrapper-up input[name="firstName"], section.form-registration .wrapper-main .wrapper-up input[name="lastName"] {
+      width: 24%; }
+    section.form-registration .wrapper-main .wrapper-up input[name="email"] {
+      width: 49.1%;
+      display: inline-block; }
+    section.form-registration .wrapper-main .wrapper-down .mycheck {
+      margin-top: 0;
+      color: #ebebeb;
+      font-family: Arial;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px; }
+    section.form-registration .wrapper-main .wrapper-down select {
+      padding-top: 2px;
+      width: 48.7%; }
+    section.form-registration .wrapper-main .wrapper-down input[name="kod"] {
+      width: 4.4%; }
+    section.form-registration .wrapper-main .wrapper-down input[name="telephone"] {
+      width: 44%; }
+    section.form-registration .wrapper-main .wrapper-down input[name="age"] {
+      margin-left: 0;
+      margin-right: 10px;
+      vertical-align: bottom; }
+    section.form-registration .wrapper-main button.mybtn {
+      display: block;
+      margin: 47px auto 0; }
