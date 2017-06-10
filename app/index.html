@@ -68,16 +68,16 @@
 
 					<div class="wrapper-form">
 						<form action="#">
-							<input type="text" name="firstName">
-							<input type="text" name="lastName">
-							<input type="text" name="email">
-							<input type="text" name="kod"><input type="text" name="telephone">
-							<select>
+							<input type="text" name="firstName" class="form-control" placeholder="First name" required>
+							<input type="text" name="lastName" class="form-control" placeholder="Last name" required >
+							<input type="text" name="email" class="form-control" placeholder="Email" required>
+							<input type="text" name="kod" class="form-control" placeholder="44" ><input type="text" name="telephone" class="form-control" placeholder="Phone" required>
+							<select class="form-control">
   								<option>United Kingdom</option>
   								<option>Ukraine</option>
 							</select>
 							<div class="checkbox"><input type="checkbox" name="age" value="">I am over 18 years of age and I accept these Legal Terms & Conditions</div>
-							<button class="mybtn">Give StoxMarket a try</button>
+							<button class="mybtn btn" type="submit">Give StoxMarket a try</button>
 							
 						</form>
 					</div>
@@ -198,7 +198,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<div class="button-down"><a href="#"></a></div>
+			<div class="button-down" type="submit"><a href="#"></a></div>
 		</div>
 	</div>
 
@@ -220,22 +220,24 @@
 		</div>
 		<div class="row">
 			<div class="wrapper-main">
-				<div class="wrapper-up">
-					<input type="text" name="firstName">
-					<input type="text" name="lastName">
-					<input type="text" name="email">
+				<form action="#">
+					<div class="wrapper-up">
+						<input type="text" name="firstName" placeholder="First name" required>
+						<input type="text" name="lastName" placeholder="Last name" required>
+						<input type="text" name="email" placeholder="Email" required>
+					</div>
+					<div class="wrapper-down">
+						<select class="form-control">
+	  						<option>United Kingdom</option>
+	  						<option>Ukraine</option>
+						</select>
+						<input type="text" name="kod" placeholder="44">
+						<input type="text" name="telephone" placeholder="Phone" required>
+						<div class="mycheck"><input type="checkbox" name="age" value="">I am over 18 years of age and I accept these Legal Terms & Conditions</div>
+					</div>
+					<button class="mybtn" type="submit">Register now</button>
+					</form>
 				</div>
-				<div class="wrapper-down">
-					<select>
-  						<option>United Kingdom</option>
-  						<option>Ukraine</option>
-					</select>
-					<input type="text" name="kod">
-					<input type="text" name="telephone">
-					<div class="mycheck"><input type="checkbox" name="age" value="">I am over 18 years of age and I accept these Legal Terms & Conditions</div>
-				</div>
-				<button class="mybtn">Register now</button>
-			</div>
 		</div>
 
 	</div>
@@ -356,21 +358,23 @@
 		</div>
 		<div class="row">
 			<div class="wrapper-main">
+				<form action="#">
 				<div class="wrapper-up">
-					<input type="text" name="firstName">
-					<input type="text" name="lastName">
-					<input type="text" name="email">
+					<input type="text" name="firstName" placeholder="First name" required="">
+					<input type="text" name="lastName" placeholder="Last name" required="">
+					<input type="text" name="email" placeholder="Email" required="">
 				</div>
 				<div class="wrapper-down">
-					<select>
+					<select class="form-control">
   						<option>United Kingdom</option>
   						<option>Ukraine</option>
 					</select>
-					<input type="text" name="kod">
-					<input type="text" name="telephone">
+					<input type="text" name="kod" placeholder="44">
+					<input type="text" name="telephone" placeholder="Phone" ="Phone" required="">
 					<div class="mycheck"><input type="checkbox" name="age" value="">I am over 18 years of age and I accept these Legal Terms & Conditions</div>
 				</div>
 				<button class="mybtn">Give StoxMarket a try</button>
+				</form>
 			</div>
 		</div>
 

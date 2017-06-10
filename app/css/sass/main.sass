@@ -154,7 +154,7 @@ select
 	border: none
 	outline: none
 	font-size: 20px
-	font-family: "GautamiBold", sans-serif
+	font-family: "GothamProRegular", sans-serif
 	padding-top: 4px
 
 .mybtn
@@ -165,7 +165,7 @@ select
 			
 	margin-bottom: 115px
 	border: 0
-	padding: 21px 5px 12px
+	padding: 19px 5px
 	margin-top: 37px
 	width: 319px
 	height: 55px
@@ -179,7 +179,6 @@ select
 	font-family: "GautamiBold", sans-serif
 	font-size: 23px
 	font-weight: 700
-	line-height: 24px
 	text-transform: uppercase
 
 
@@ -334,10 +333,10 @@ section.whether
 		height: 44px
 		background: url($pathToImg+"buttondown.png") center center no-repeat		
 		margin: 0 auto
-	a 
-		width: 100%
-		height: 100%
-		display: block
+		a
+			width: 100%
+			height: 100%
+			display: block
 
 section.form-registration
 	background: url($pathToImg+"bg-form-one.jpg") center center no-repeat
@@ -366,9 +365,11 @@ section.form-registration
 		.wrapper-up	
 			input[name="firstName"], input[name="lastName"]
 				width: 24%
+				padding: 6px 12px;
 			input[name="email"]
 				width: 49.1%
 				display: inline-block
+				padding: 6px 12px;
 		.wrapper-down
 			.mycheck
 				margin-top: 0	
@@ -379,12 +380,15 @@ section.form-registration
 				line-height: 18px
 
 			select
-				padding-top: 2px
 				width: 48.7%
+				display: inline-block
 			input[name="kod"]
-				width: 4.4%
+				
+				width: 10.4%
+				padding: 6px 12px;
 			input[name="telephone"]
-				width: 44%	
+				padding: 6px 12px;
+				width: 38%	
 			input[name="age"]
 				margin-left: 0
 				margin-right: 10px
@@ -455,7 +459,11 @@ section.access
 		width: 44px
 		height: 44px
 		background: url($pathToImg+"buttondown.png") center center no-repeat		
-		margin: 145px auto 0	
+		margin: 145px auto 0
+		a 
+			display: block
+			width: 100%
+			height: 100%	
 
 .payments
 	text-align: center

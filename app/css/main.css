@@ -146,13 +146,13 @@ select {
   border: none;
   outline: none;
   font-size: 20px;
-  font-family: "GautamiBold", sans-serif;
+  font-family: "GothamProRegular", sans-serif;
   padding-top: 4px; }
 
 .mybtn {
   margin-bottom: 115px;
   border: 0;
-  padding: 21px 5px 12px;
+  padding: 19px 5px;
   margin-top: 37px;
   width: 319px;
   height: 55px;
@@ -165,7 +165,6 @@ select {
   font-family: "GautamiBold", sans-serif;
   font-size: 23px;
   font-weight: 700;
-  line-height: 24px;
   text-transform: uppercase; }
   .mybtn:hover {
     background-color: #feca7d; }
@@ -317,10 +316,10 @@ section.whether {
     height: 44px;
     background: url("../img/buttondown.png") center center no-repeat;
     margin: 0 auto; }
-  section.whether a {
-    width: 100%;
-    height: 100%;
-    display: block; }
+    section.whether .button-down a {
+      width: 100%;
+      height: 100%;
+      display: block; }
 
 section.form-registration {
   background: url("../img/bg-form-one.jpg") center center no-repeat;
@@ -347,10 +346,12 @@ section.form-registration {
     margin: 0 150px;
     padding: 37px 40px 45px; }
     section.form-registration .wrapper-main .wrapper-up input[name="firstName"], section.form-registration .wrapper-main .wrapper-up input[name="lastName"] {
-      width: 24%; }
+      width: 24%;
+      padding: 6px 12px; }
     section.form-registration .wrapper-main .wrapper-up input[name="email"] {
       width: 49.1%;
-      display: inline-block; }
+      display: inline-block;
+      padding: 6px 12px; }
     section.form-registration .wrapper-main .wrapper-down .mycheck {
       margin-top: 0;
       color: #ebebeb;
@@ -359,12 +360,14 @@ section.form-registration {
       font-weight: 400;
       line-height: 18px; }
     section.form-registration .wrapper-main .wrapper-down select {
-      padding-top: 2px;
-      width: 48.7%; }
+      width: 48.7%;
+      display: inline-block; }
     section.form-registration .wrapper-main .wrapper-down input[name="kod"] {
-      width: 4.4%; }
+      width: 10.4%;
+      padding: 6px 12px; }
     section.form-registration .wrapper-main .wrapper-down input[name="telephone"] {
-      width: 44%; }
+      padding: 6px 12px;
+      width: 38%; }
     section.form-registration .wrapper-main .wrapper-down input[name="age"] {
       margin-left: 0;
       margin-right: 10px;
@@ -435,6 +438,10 @@ section.access {
     height: 44px;
     background: url("../img/buttondown.png") center center no-repeat;
     margin: 145px auto 0; }
+    section.access .button-down a {
+      display: block;
+      width: 100%;
+      height: 100%; }
 
 .payments {
   text-align: center;

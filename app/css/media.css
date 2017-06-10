@@ -8,7 +8,10 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
-	
+	header .owl-carousel .item {
+  
+    opacity: 0.5;
+}
 
 section.form-registration .wrapper-main {
 
@@ -68,6 +71,32 @@ section.why-us .wrapper-img {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+
+
+section.form-registration .wrapper-main .wrapper-up input[name="firstName"], section.form-registration .wrapper-main .wrapper-up input[name="lastName"] {
+      display: block;
+      width: 100%;
+      padding: 6px 12px; }
+    section.form-registration .wrapper-main .wrapper-up input[name="email"] {
+      width: 100%;
+      display: block;
+       }
+    
+    section.form-registration .wrapper-main .wrapper-down select {
+      width: 100%;
+      display: block; }
+    section.form-registration .wrapper-main .wrapper-down input[name="kod"] {
+      width: 19.4%; }
+    section.form-registration .wrapper-main .wrapper-down input[name="telephone"] {
+      padding: 6px 12px;
+      width: 79%; }
+
+
+
+
+
+
 	
 	.wrapper-header-right {
 	width: 100%;
@@ -91,7 +120,7 @@ input[name="telephone"] {
 		font-size: 2.2rem;
 	}
 .mybtn {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
