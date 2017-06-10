@@ -1,5 +1,6 @@
 @import "bourbon/bourbon"
-@import "var";
+@import "var"
+@import "mixin"
 html
 	font-size: 16px
 body
@@ -7,6 +8,7 @@ body
 body input, button, select, option
 	outline: none
 	text-indent: 10px
+	border: none	
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
@@ -94,8 +96,9 @@ header
 	padding-right: 0
 
 .wrapper-header-right
-	width: 320px
-	float: right
+	max-width: 320px
+	margin-right: 0
+	margin-left: auto
     
 	.checkbox 
 		margin-left: 40px
@@ -114,7 +117,6 @@ header
 
 
 	margin-top: 101px
-	margin-right: -30px
 	text-align: center
 	.wrapper-caption-form
 		margin-right: -10px;
@@ -158,11 +160,21 @@ select
 	padding-top: 4px
 
 .mybtn
+	&:before
+		content: ""
+		width: 20px
+		height: 18px
+		background: url($pathToImg+"star.png")
+		position: absolute
+		top: -7px
+		left: 95%
 	&:hover
 		background-color: lighten(#fda118, 20%)
 	&:active
 		background-color: darken(#fda118, 10%)
+		border: none
 			
+	position: relative
 	margin-bottom: 115px
 	border: 0
 	padding: 19px 5px
@@ -185,6 +197,7 @@ select
 /*styles of section*/
 
 section.start
+	position: relative
 	padding-top: 97px	
 	h1
 		margin: 0 0 85px
@@ -213,6 +226,26 @@ section.start
 	.icon3
 		background: url($pathToImg+"icon3.png") center center
 		width: 230px
+	.arrow
+		background-image: url($pathToImg+"arrow1.png")
+		background-repeat: no-repeat
+		background-size: contain
+		width: 40%
+		height: 24px
+		position: absolute
+		left: 77%
+		top: 13%
+	.arrow2
+		background-image: url($pathToImg+"arrow2.png")
+		background-repeat: no-repeat
+		background-size: contain
+		width: 40%
+		height: 24px
+		position: absolute
+		left: 77%
+		top: 19%	
+
+
 	h2
 		text-align: center
 		color: #dc6411
@@ -228,14 +261,6 @@ section.start
 		font-weight: 400
 		text-align: center
 		font-family: "GothamProMedium",sans-serif
-	/*.icon1::after
-		content: "";
-		background-image: url($pathToImg+"arrow1.png")
-		width: 157px
-		right: -152px
-		position: absolute
-		top: 70px
-		height: 24px*/
 
 	.icon2+h2
 		color: #189bdb
@@ -248,6 +273,19 @@ section.start
 
 
 section.why-us
+	position: relative
+	.line
+		background-image: url($pathToImg+"line.png")
+		background-repeat: no-repeat
+		/*background-size: contain*/
+		height: 100%
+		width: 8%
+		left: 45.3%
+		bottom: -45%
+		background-size: 81% 50%
+		position: absolute
+    
+
 	.mypb
 		margin-bottom: 75px
 	background: url($pathToImg+"bg-middle.jpg") center center
@@ -398,11 +436,13 @@ section.form-registration
 			margin: 47px auto 0
 
 section.access
+	position: relative
 	background: url($pathToImg+"bg-bottom.jpg") center center no-repeat
 	background-size: cover
 	padding-top: 85px
 	padding-bottom: 74px
 	text-align: center
+	
 	h1
 		padding: 0
 		margin: 0 0 70px
@@ -503,8 +543,9 @@ footer
 
 
 
-	
-				
+ 
+
+
 
 
 

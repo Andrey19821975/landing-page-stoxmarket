@@ -7,6 +7,14 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+	
+	.why-us .line, .access .line2 {
+		display: none;
+	}
+
+	.start .arrow, .start .arrow2 {
+		display: none;
+	}
 
 	header .owl-carousel .item {
   
@@ -67,6 +75,26 @@ section.why-us .caption-content-middle,.text-content-middle {
 section.why-us .wrapper-img {
 	margin:15px auto;
 }
+}
+ @media only screen and (max-width : 650px) {
+section.form-registration .wrapper-main .wrapper-up input[name="firstName"], section.form-registration .wrapper-main .wrapper-up input[name="lastName"] {
+      display: block;
+      width: 100%;
+      padding: 6px 12px; }
+    section.form-registration .wrapper-main .wrapper-up input[name="email"] {
+      width: 100%;
+      display: block;
+       }
+    
+    section.form-registration .wrapper-main .wrapper-down select {
+      width: 100%;
+      display: block; }
+    section.form-registration .wrapper-main .wrapper-down input[name="kod"] {
+      width: 19.4%; }
+    section.form-registration .wrapper-main .wrapper-down input[name="telephone"] {
+      padding: 6px 12px;
+      width: 79.7%; }
+
 }
 
 /* Extra Small Devices, Phones */

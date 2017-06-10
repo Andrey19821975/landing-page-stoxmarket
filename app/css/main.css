@@ -4,7 +4,8 @@ html {
 
 body input, button, select, option {
   outline: none;
-  text-indent: 10px; }
+  text-indent: 10px;
+  border: none; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -87,10 +88,10 @@ header {
   padding-right: 0; }
 
 .wrapper-header-right {
-  width: 320px;
-  float: right;
+  max-width: 320px;
+  margin-right: 0;
+  margin-left: auto;
   margin-top: 101px;
-  margin-right: -30px;
   text-align: center; }
   .wrapper-header-right .checkbox {
     margin-left: 40px;
@@ -150,6 +151,7 @@ select {
   padding-top: 4px; }
 
 .mybtn {
+  position: relative;
   margin-bottom: 115px;
   border: 0;
   padding: 19px 5px;
@@ -166,22 +168,24 @@ select {
   font-size: 23px;
   font-weight: 700;
   text-transform: uppercase; }
+  .mybtn:before {
+    content: "";
+    width: 20px;
+    height: 18px;
+    background: url("../img/star.png");
+    position: absolute;
+    top: -7px;
+    left: 95%; }
   .mybtn:hover {
     background-color: #feca7d; }
   .mybtn:active {
-    background-color: #e08702; }
+    background-color: #e08702;
+    border: none; }
 
 /*styles of section*/
 section.start {
-  padding-top: 97px;
-  /*.icon1::after
-		content: "";
-		background-image: url($pathToImg+"arrow1.png")
-		width: 157px
-		right: -152px
-		position: absolute
-		top: 70px
-		height: 24px*/ }
+  position: relative;
+  padding-top: 97px; }
   section.start h1 {
     margin: 0 0 85px;
     padding: 0;
@@ -209,6 +213,24 @@ section.start {
   section.start .icon3 {
     background: url("../img/icon3.png") center center;
     width: 230px; }
+  section.start .arrow {
+    background-image: url("../img/arrow1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40%;
+    height: 24px;
+    position: absolute;
+    left: 77%;
+    top: 13%; }
+  section.start .arrow2 {
+    background-image: url("../img/arrow2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40%;
+    height: 24px;
+    position: absolute;
+    left: 77%;
+    top: 19%; }
   section.start h2 {
     text-align: center;
     color: #dc6411;
@@ -233,11 +255,22 @@ section.start {
       color: white; }
 
 section.why-us {
+  position: relative;
   background: url("../img/bg-middle.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 350px;
   padding-bottom: 145px; }
+  section.why-us .line {
+    background-image: url("../img/line.png");
+    background-repeat: no-repeat;
+    /*background-size: contain*/
+    height: 100%;
+    width: 8%;
+    left: 45.3%;
+    bottom: -45%;
+    background-size: 81% 50%;
+    position: absolute; }
   section.why-us .mypb {
     margin-bottom: 75px; }
   section.why-us h1 {
@@ -377,6 +410,7 @@ section.form-registration {
       margin: 47px auto 0; }
 
 section.access {
+  position: relative;
   background: url("../img/bg-bottom.jpg") center center no-repeat;
   background-size: cover;
   padding-top: 85px;
